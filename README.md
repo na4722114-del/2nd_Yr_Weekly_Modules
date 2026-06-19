@@ -1,53 +1,79 @@
-# C Programming — Module 1
+# 📘 C Programming & DSA — AKTU Coursework
 
-Notes and practice programs for **Module 1** of B.Tech CSE (Batch 2025–2029), covering syntax basics, conditionals, loops, switch statements, and pattern printing. Written and tested in VS Code.
+📚 My C Programming journey as a **B.Tech Computer Science Engineering** student (Batch 2025–2029) at **KCC Institute of Technology and Management**, affiliated with **AKTU (Dr. A.P.J. Abdul Kalam Technical University)**.
 
-## 📌 Topics Covered
+This repository contains module-wise solutions based on coursework problem statements (**BCS-201 — C Programming**), covering fundamentals, searching, and sorting algorithms.
 
-- C syntax basics (variables, data types, input/output)
-- Conditional statements (`if`, `if-else`, nested `if-else`)
-- Loops — `for`, `while`, `do-while`
-- `switch` statements
-- Pattern programs — square, triangle, pyramid, diamond, and more
+---
 
-## 📂 Folder Structure
+## 📂 Modules Overview
 
-Each program lives in its own `.c` file, named by what it does:
+| Module | Topics Covered | Folder |
+|--------|-----------------|--------|
+| **Module 1** | Conditionals, Loops, Switch Cases, Pattern Programs | [`Module-1-Basics`](./Nasir module week 1.pdf) |
+| **Module 2** | Linear Search, Binary Search, Bubble Sort, Insertion Sort, Selection Sort | [`Module-2-Searching-Sorting`](./Nasir_Module_Week2.pdf) |
 
+*(More modules will be added as the semester progresses)*
+
+---
+
+## 🧩 Module 1 — Basics
+
+Covers core C fundamentals:
+- Conditional statements (if-else, nested if)
+- Loops (for, while, do-while)
+- Switch case statements
+- Pattern printing programs
+
+➡️ [View Module 1 files](./Nasir_module_week1.pdf)
+
+---
+
+## 🔍 Module 2 — Searching & Sorting Algorithms
+
+Real-world inspired problems solved using core searching and sorting techniques:
+
+| No. | Problem | Concept | File |
+|-----|---------|---------|------|
+| 1 | Find Student Roll Number | Linear Search | `01_linear_search.c` |
+| 2 | Search Product ID | Binary Search | `02_binary_search.c` |
+| 3 | Arrange Exam Scores | Bubble Sort | `03_bubble_sort.c` |
+| 4 | Arrange Library Book Numbers | Insertion Sort | `04_insertion_sort.c` |
+| 5 | Rank Players by Score | Selection Sort | `05_selection_sort.c` |
+
+**Concept Summary:**
+- **Linear Search** — Scans sequentially, O(n), works on unsorted data
+- **Binary Search** — Divide-and-conquer on sorted data, O(log n), much faster
+- **Bubble Sort** — Repeatedly swaps adjacent out-of-order elements, O(n²)
+- **Insertion Sort** — Builds sorted array one element at a time, efficient for small/nearly-sorted data
+- **Selection Sort** — Finds minimum each pass and places it correctly, O(n²)
+
+➡️ [View Module 2 files](./Nasir_Module_Week2.pdf)
+
+---
+
+## 🛠️ Tools Used
+
+- **Language:** C
+- **IDE:** VS Code
+- **Compiler:** GCC
+
+## ▶️ How to Run Any Program
+
+```bash
+gcc filename.c -o output
+./output
 ```
-Module-1/
-├── basics/
-│   ├── hello_world.c
-│   ├── variables_datatypes.c
-│   └── input_output.c
-├── conditionals/
-│   ├── if_else_basic.c
-│   ├── nested_if_else.c
-│   └── grade_calculator.c
-├── loops/
-│   ├── for_loop.c
-│   ├── while_loop.c
-│   └── do_while_loop.c
-├── switch/
-│   └── switch_case_menu.c
-├── patterns/
-│   ├── square_pattern.c
-│   ├── triangle_pattern.c
-│   ├── pyramid_pattern.c
-│   └── diamond_pattern.c
-└── README.md
-```
 
-## 🔧 Planned Enhancements
+---
 
-This module is a base for ongoing improvement. Ideas for next passes:
+## 🎯 About Me
 
-- [ ] Add input validation (handle bad/negative input gracefully)
-- [ ] Add comments explaining logic for each pattern program
-- [ ] Refactor repeated pattern logic into reusable functions
-- [ ] Add a few "challenge" variants (hollow square, inverted pyramid, number patterns, alphabet patterns)
-- [ ] Add a Makefile or shell script to compile all programs at once
-- [ ] Write a short complexity note (loop count / time complexity) for each pattern
+I'm a first-year CSE student building a strong foundation in programming and data structures, with a long-term goal in **Data Science & AI/ML**.
+
+---
+
+**Author:** [Md Nasir Ansari](https://www.linkedin.com/in/md-nasir-ansari-435bb7308/)
 
 
 
